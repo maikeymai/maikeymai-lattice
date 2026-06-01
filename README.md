@@ -8,7 +8,7 @@ Lattice is a Compute Module 4 based infrastructure lab built to explore the arch
 
 The project focuses on:
 
-- Fleet management
+- Orchestration
 - Infrastructure automation
 - Distributed storage
 - Observability
