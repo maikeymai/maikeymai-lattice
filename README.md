@@ -57,7 +57,12 @@ sled-06
 - Storage replication
 - Infrastructure documentation
 
----
+## Documentation
+
+- [Architecture](docs/architecture.md)
+- [Hardware Inventory](docs/hardware-inventory.md)
+- [Technology Decisions](docs/technology-decisions.md)
+- [Roadmap](docs/roadmap.md)
 
 ## Roadmap
 
