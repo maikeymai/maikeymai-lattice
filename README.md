@@ -63,6 +63,7 @@ sled-06
 - [Hardware Inventory](docs/hardware-inventory.md)
 - [Technology Decisions](docs/technology-decisions.md)
 - [Roadmap](docs/roadmap.md)
+- [Initial OS Installation](docs/initial-os-install.md)
 
 ## Roadmap
 
