@@ -87,16 +87,16 @@ Ubuntu Server 24.04 LTS (64-bit)
 * [x] Samsung 980 NVMe installation
 * [x] Ubuntu image deployment to eMMC
 
-### In Progress
+### Completed
 
-* [ ] First successful operating system boot
-* [ ] SSH validation
-* [ ] NVMe validation
+* [x] First successful operating system boot
+* [x] SSH validation
+* [x] NVMe validation
 
-### Pending
+### In Progess
 
-* [ ] Static IP assignment
-* [ ] Operating system baseline configuration
+* [x] Static IP assignment
+* [x] Operating system baseline configuration
 * [ ] Ansible inventory creation
 * [ ] Cluster node deployment
 
