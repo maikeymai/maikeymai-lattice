@@ -70,9 +70,9 @@ sled-06
 ### Phase 1
 
 - [x] Hardware assembly
-- [ ] Ubuntu deployment
-- [ ] SSH access
-- [ ] Static IP configuration
+- [x] Ubuntu deployment
+- [x] SSH access
+- [x] Static IP configuration
 
 ### Phase 2
 
