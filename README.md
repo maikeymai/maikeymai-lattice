@@ -17,6 +17,17 @@ The project focuses on:
 
 ---
 
+## Current Status
+
+- [x] DeskPi Super6C assembled
+- [x] Six CM4 modules installed
+- [x] Six Samsung 980 1TB NVMe SSDs installed
+- [x] Ubuntu Server 24.04 LTS deployed
+- [x] Static IP addressing configured
+- [x] SSH key access configured
+- [ ] Ansible inventory
+- [ ] Cluster-wide validation
+
 ## Hardware
 
 ### Platform
