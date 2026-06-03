@@ -32,6 +32,19 @@ Lattice is built on a DeskPi Super6C platform using six Raspberry Pi Compute Mod
 
 ---
 
+## Node Inventory
+
+| Sled | Hostname | Static IP | OS | Storage |
+|---|---|---|---|---|
+| 1 | sled-01 | 192.168.68.101 | Ubuntu Server 24.04 LTS | Samsung 980 1TB NVMe |
+| 2 | sled-02 | 192.168.68.102 | Ubuntu Server 24.04 LTS | Samsung 980 1TB NVMe |
+| 3 | sled-03 | 192.168.68.103 | Ubuntu Server 24.04 LTS | Samsung 980 1TB NVMe |
+| 4 | sled-04 | 192.168.68.104 | Ubuntu Server 24.04 LTS | Samsung 980 1TB NVMe |
+| 5 | sled-05 | 192.168.68.105 | Ubuntu Server 24.04 LTS | Samsung 980 1TB NVMe |
+| 6 | sled-06 | 192.168.68.106 | Ubuntu Server 24.04 LTS | Samsung 980 1TB NVMe |
+
+---
+
 ## Networking
 
 Current Status:
