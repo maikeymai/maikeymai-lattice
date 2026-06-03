@@ -75,6 +75,7 @@ sled-06
 - [Technology Decisions](docs/technology-decisions.md)
 - [Roadmap](docs/roadmap.md)
 - [Initial OS Installation](docs/initial-os-install.md)
+- [Networking](docs/networking.md)
 
 ## Roadmap
 
