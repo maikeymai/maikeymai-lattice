@@ -1,0 +1,15 @@
+---
+- name: Join k3s workers
+  hosts: sled-02,sled-03,sled-04,sled-05,sled-06
+  become: true
+
+  vars:
+    k3s_server: "https://192.168.68.101:6443"
+    k3s_token: "K104c4814161c004a862b4375840c5cea9e7d446eed711b9f63990183d882953e19::server:08c45aba4adbf143db410c85f459e8d9"
+
+  tasks:
+    - name: Install k3s agent
+      shell: |
+        curl -sfL https://get.k3s.io | K3S_URL={{ k3s_server }} K3S_TOKEN={{ k3s_token }} sh -
+      args:
+        creates: /etc/systemd/system/k3s-agent.service
