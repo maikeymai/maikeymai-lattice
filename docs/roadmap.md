@@ -20,9 +20,9 @@ Lattice aims to become a fully documented ARM infrastructure platform used to ex
 - [x] Assemble DeskPi Super6C
 - [x] Install Compute Module 4 hardware
 - [x] Install Samsung 980 NVMe SSDs
-- [ ] Install Ubuntu Server
-- [ ] Configure SSH
-- [ ] Configure Static IP Addresses
+- [x] Install Ubuntu Server
+- [x] Configure SSH
+- [x] Configure Static IP Addresses
 
 ---
 
@@ -35,9 +35,9 @@ Lattice aims to become a fully documented ARM infrastructure platform used to ex
 
 ### Tasks
 
-- [ ] Create Ansible Inventory
-- [ ] Build Base Configuration Playbooks
-- [ ] Standardize Node Configuration
+- [x] Create Ansible Inventory
+- [x] Build Base Configuration Playbooks
+- [x] Standardize Node Configuration
 
 ---
 
@@ -54,7 +54,7 @@ Lattice aims to become a fully documented ARM infrastructure platform used to ex
 - [ ] Build Lattice Controller
 - [ ] Build Telemetry Agent
 - [ ] Create Inventory Service
-- [ ] Create Health Dashboard
+- [x] Create Health Dashboard
 
 ---
 
@@ -70,8 +70,8 @@ Lattice aims to become a fully documented ARM infrastructure platform used to ex
 
 - [ ] Deploy k3s
 - [ ] Deploy Longhorn
-- [ ] Deploy Prometheus
-- [ ] Deploy Grafana
+- [x] Deploy Prometheus
+- [x] Deploy Grafana
 - [ ] Deploy Loki
 
 ---
