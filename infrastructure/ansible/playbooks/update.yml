@@ -1,0 +1,13 @@
+---
+- name: Update all lattice nodes
+  hosts: lattice
+  become: true
+
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Upgrade packages
+      apt:
+        upgrade: dist
