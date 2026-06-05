@@ -68,8 +68,8 @@ Lattice aims to become a fully documented ARM infrastructure platform used to ex
 
 ### Tasks
 
-- [ ] Deploy k3s
-- [ ] Deploy Longhorn
+- [x] Deploy k3s
+- [x] Deploy Longhorn
 - [x] Deploy Prometheus
 - [x] Deploy Grafana
 - [ ] Deploy Loki
