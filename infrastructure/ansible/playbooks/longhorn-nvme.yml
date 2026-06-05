@@ -1,0 +1,24 @@
+---
+- name: Prepare NVMe storage for Longhorn
+  hosts: lattice
+  become: true
+
+  tasks:
+    - name: Create Longhorn mount point
+      file:
+        path: /mnt/longhorn
+        state: directory
+        mode: '0755'
+
+    - name: Create filesystem on NVMe if missing
+      filesystem:
+        fstype: ext4
+        dev: /dev/nvme0n1
+
+    - name: Mount NVMe for Longhorn
+      mount:
+        path: /mnt/longhorn
+        src: /dev/nvme0n1
+        fstype: ext4
+        opts: defaults
+        state: mounted
