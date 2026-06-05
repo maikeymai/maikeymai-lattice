@@ -25,8 +25,8 @@ The project focuses on:
 - [x] Ubuntu Server 24.04 LTS deployed
 - [x] Static IP addressing configured
 - [x] SSH key access configured
-- [ ] Ansible inventory
-- [ ] Cluster-wide validation
+- [x] Ansible inventory
+- [x] Cluster-wide validation
 
 ## Hardware
 
@@ -88,22 +88,22 @@ sled-06
 
 ### Phase 2
 
-- [ ] Ansible automation
-- [ ] Inventory management
-- [ ] Hardware telemetry
+- [x] Ansible automation
+- [x] Inventory management
+- [x] Hardware telemetry
 
 ### Phase 3
 
-- [ ] Lattice Controller
-- [ ] Fleet API
-- [ ] Dashboard
+- [x] Lattice Controller
+- [x] Fleet API
+- [x] Dashboard
 
 ### Phase 4
 
-- [ ] Kubernetes
-- [ ] Longhorn
-- [ ] Prometheus
-- [ ] Grafana
+- [x] Kubernetes
+- [x] Longhorn
+- [x] Prometheus
+- [x] Grafana
 
 ---
 
