@@ -1,0 +1,40 @@
+---
+- name: Deploy Lattice Agent
+  hosts: lattice
+  become: true
+
+  tasks:
+    - name: Install dependencies
+      apt:
+        name:
+          - python3
+          - nvme-cli
+          - libraspberrypi-bin
+        state: present
+        update_cache: yes
+
+    - name: Copy Lattice Agent
+      copy:
+        src: ../../../control-plane/agent/lattice-agent.py
+        dest: /usr/local/bin/lattice-agent.py
+        owner: root
+        group: root
+        mode: '0755'
+
+    - name: Copy systemd service
+      copy:
+        src: ../../../control-plane/agent/lattice-agent.service
+        dest: /etc/systemd/system/lattice-agent.service
+        owner: root
+        group: root
+        mode: '0644'
+
+    - name: Reload systemd
+      systemd:
+        daemon_reload: true
+
+    - name: Enable and start Lattice Agent
+      systemd:
+        name: lattice-agent
+        enabled: true
+        state: restarted
